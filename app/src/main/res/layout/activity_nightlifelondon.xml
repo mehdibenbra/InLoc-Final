@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inloc.nightlifelondon">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nightlife"
+        android:id="@+id/OneTextView"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Don&apos;t worry about tomorrow"
+        android:id="@+id/TwoTextView"
+        android:layout_below="@+id/OneTextView"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Icebar London"
+        android:id="@+id/ThreeTextView"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/TwoTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A cold, sensory experience where the walls, bar and tables are made from crystal clear Thom River ice"
+        android:id="@+id/FiveTextView"
+        android:layout_below="@+id/ThreeTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Opening times: Monday - Sunday | 14:00 - 22:00"
+        android:id="@+id/SixTextView"
+        android:layout_below="@+id/FiveTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="BrewDog Camden"
+        android:id="@+id/SevenTextView"
+        android:layout_below="@+id/SixTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Relaxed atmosphere with a selection of their own beers"
+        android:id="@+id/EightTextView"
+        android:layout_below="@+id/SevenTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Opening times: Monday - Sunday | 10:00 - 22:0"
+        android:id="@+id/ThirteenTextView"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/EightTextView"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="XOYO"
+        android:id="@+id/ElevenTextView"
+        android:layout_below="@+id/ThirteenTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="A club for the party animal in you"
+        android:id="@+id/TwelveTextView"
+        android:layout_below="@+id/ElevenTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Opening times: Monday, Friday &amp; Saturday | 22:00 - 04:00 "
+        android:id="@+id/NineTextView"
+        android:layout_below="@+id/TwelveTextView"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

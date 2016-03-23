@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inloc.restaurantParis">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Restaurants"
+        android:id="@+id/OneTextView"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="&quot;Bien manger c&apos;est le debut du bonheur&quot;"
+        android:id="@+id/QuoteTextView"
+        android:textSize="15dp"
+        android:layout_below="@+id/OneTextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Seb&apos;on"
+        android:id="@+id/TwoTextView"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/QuoteTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Beautiful food with a select menu exceptionally made and presented "
+        android:id="@+id/ThreeTextView"
+        android:layout_below="@+id/TwoTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cobea"
+        android:id="@+id/FourTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="This Michilin starred restaurent does not come cheap, but is worth every penny"
+        android:id="@+id/FiveTextView"
+        android:layout_below="@+id/FourTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Le Sixième Sens"
+        android:id="@+id/SixTextView"
+        android:layout_below="@+id/FiveTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The Sixième sens is an example of the trendy, creative and immaginative modern french cuisine"
+        android:id="@+id/EightTextView"
+        android:layout_below="@+id/SixTextView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here for more details"
+        android:id="@+id/DetailsButton2"
+        android:gravity="center|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/QuoteTextView" />
+
+</RelativeLayout>

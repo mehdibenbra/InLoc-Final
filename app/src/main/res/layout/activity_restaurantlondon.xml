@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inloc.restaurantlondon">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Restaurants"
+        android:id="@+id/QuoteTextView"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Great food for great value"
+        android:id="@+id/TextViewOne"
+        android:textSize="15dp"
+        android:layout_below="@+id/QuoteTextView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Borough Market"
+        android:id="@+id/TextViewTwo"
+        android:layout_marginTop="38dp"
+        android:layout_below="@+id/TextViewOne" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="London&apos;s most famous food market"
+        android:id="@+id/TextViewThree"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/TextViewTwo"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Daddy Donkey"
+        android:id="@+id/TextViewFour"
+        android:layout_marginTop="48dp"
+        android:layout_alignStart="@+id/TextViewThree"
+        android:layout_below="@+id/TextViewThree" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Burrito-based market in the heart of London"
+        android:id="@+id/TextViewFive"
+        android:layout_below="@+id/TextViewFour"
+        android:layout_alignStart="@+id/TextViewFour" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The queues build up pretty quickly so aim to go for noon or 3pm"
+        android:id="@+id/TextViewSix"
+        android:layout_below="@+id/TextViewFive"
+        android:layout_alignStart="@+id/TextViewFive" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Exmouth Market"
+        android:id="@+id/TextViewSeven"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/TextViewSix"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Bubbling jellof rice, fragrant Thai noodles, superior kebabs - there is something for everyone"
+        android:id="@+id/TextViewEight"
+        android:layout_below="@+id/TextViewSeven"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Opening times: Monday - Friday | 12:00 - 15:00"
+        android:id="@+id/TextViewNine"
+        android:layout_below="@+id/TextViewEight"
+        android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

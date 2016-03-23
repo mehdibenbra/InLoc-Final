@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.inloc.LandmarkParis"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Landmarks"
+        android:id="@+id/OneTextView"
+        android:textStyle="bold"
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Inspirez vous des sites emblématiques de votre ville"
+        android:id="@+id/QuoteTextView"
+        android:textSize="15dp"
+        android:layout_below="@+id/OneTextView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Tour Eiffel"
+        android:id="@+id/TwoTextView"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/QuoteTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Recognised across the globe as being a true masterpiece of French engineering and a symbol of romance"
+        android:id="@+id/ThreeTextView"
+        android:layout_below="@+id/TwoTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Musée du Louvre"
+        android:id="@+id/FourTextView"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="The world&apos;s greatest art museum—and the largest, with 675,000 square feet of works from almost every civilization on earth"
+        android:id="@+id/FiveTextView"
+        android:layout_below="@+id/FourTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Cathédrale de Notre-Dame"
+        android:id="@+id/SixTextView"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/FiveTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Cathédrale de Notre Dame de Paris is not only a marvellous feat of French Gothic architecture, but has also been Catholic Paris&apos; ceremonial focus for seven centuries."
+        android:id="@+id/EightTextView"
+        android:layout_below="@+id/SixTextView"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click here for more details"
+        android:id="@+id/DetailsButton"
+        android:gravity="center|center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/OneTextView" />
+
+
+</RelativeLayout>
